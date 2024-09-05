@@ -1,0 +1,51 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "New Amsterdam", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: larger;
+    line-height: 180%;
+}
+
+body {
+    background-color: beige;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.caixa-maior {
+    background-color: rgb(160, 155, 165);
+    color: rgb(201, 252, 252);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+input {
+    outline: none;
+
+}
+
+.caixa-pequena {
+
+    display: flex;
+    align-items: center;
+}
+.btn-pesquisa{
+    border-color: brown;
+
+}
+.previsao{
+    text-transform: capitalize;
+}
+.button{
+    cursor: pointer;
+}
+
+.velocidade-vento{
+    text-transform: capitalize;
+}
